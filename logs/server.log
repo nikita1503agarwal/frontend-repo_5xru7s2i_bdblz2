@@ -3,55 +3,9 @@
 > vite
 
 
-  VITE v5.4.20  ready in 227 ms
+  VITE v5.4.20  ready in 223 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.16.55:3000/
-5:01:36 PM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/components/Hero.jsx:7:22: ERROR: Unterminated string literal
-5:01:38 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/Hero.jsx:7:22: ERROR: Unterminated string literal
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/Hero.jsx:7:22
-  
-  Unterminated string literal
-  5  |  
-  6  |  const codeLines = [
-  7  |    'const developer = {
-     |                        ^
-  8  |      name: "Dinesh Dantal",
-  9  |      craft: "Full Stack Developer",
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
-5:01:59 PM [vite] Internal server error: Transform failed with 1 error:
-/home/workspace/src/components/Hero.jsx:7:22: ERROR: Unterminated string literal
-  Plugin: vite:esbuild
-  File: /home/workspace/src/components/Hero.jsx:7:22
-  
-  Unterminated string literal
-  5  |  
-  6  |  const codeLines = [
-  7  |    'const developer = {
-     |                        ^
-  8  |      name: "Dinesh Dantal",
-  9  |      craft: "Full Stack Developer",
-  
-      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
-      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
-      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
-      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
-      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
-      at Socket.emit (node:events:508:28)
-      at addChunk (node:internal/streams/readable:559:12)
-      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-      at Readable.push (node:internal/streams/readable:390:5)
-      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+5:03:33 PM [vite] ✨ new dependencies optimized: @splinetool/react-spline
+5:03:33 PM [vite] ✨ optimized dependencies changed. reloading

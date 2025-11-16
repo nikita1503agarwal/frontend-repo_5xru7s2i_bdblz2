@@ -4,11 +4,7 @@ import Spline from '@splinetool/react-spline'
 import { ArrowRight, Mail } from 'lucide-react'
 
 const codeLines = [
-  'const developer = {
-    name: "Dinesh Dantal",
-    craft: "Full Stack Developer",
-    traits: ["scalable", "humanCentric", "performant"],
-  }',
+  `const developer = {\n  name: "Dinesh Dantal",\n  craft: "Full Stack Developer",\n  traits: ["scalable", "humanCentric", "performant"],\n}`,
   'function build(product) {\n  return product.with(simplicity).with(empathy).with(robustness)\n}',
   'deploy(ci.cd({ region: "global", provider: "cloud" }))',
 ]
